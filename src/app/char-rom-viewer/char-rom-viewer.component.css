@@ -1,0 +1,26 @@
+.dropzone {
+  width: auto;
+  height: auto;
+  max-height: 800px;
+  min-height: 800px;
+  min-width: 384px;
+  overflow-y: scroll;
+  display: inline-block;
+  align-items: right;
+  overflow-x: visible;
+}
+.outer {
+  display: flex;
+  width: auto;
+  height: auto;
+}
+.inner {
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  overflow-x: visible;
+  align-items: center;
+}
+.info{
+
+}

@@ -1,0 +1,20 @@
+
+<div class="outer">
+  <div class="inner">
+    <div class="info">
+      <h3 >Super Mario Bros. NES CHR Editor</h3>
+      <p>{{_RomInfoText}}</p>
+      <input type="file" (change)="onFilesDropped($event)" />
+      <button (click)="OnDownloadButtonClick()">download rom</button>
+    </div>
+    <div class="dropzone" (drop)="onFilesDropped($event)" >
+      <app-charromdisplay [TileImages]="LoadedTiles" (TileSelectChangeEvent)="OnTileSelectionChange($event)"></app-charromdisplay>
+    </div>
+  </div>
+  <div class="inner">
+    <app-single-tile-display [_SelectedTile]="SelectedTile" (PixelChangedEvent)="OnPixelChanged($event)" (ColourChangedEvent)="OnColourChange($event)"></app-single-tile-display>
+  </div>
+  
+</div>
+
+

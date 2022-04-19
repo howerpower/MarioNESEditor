@@ -1,0 +1,22 @@
+<div class="panel-row">
+	<div class="panel-col">
+		<label class="panel-col-item">colour 0</label>
+		<input class="panel-col-item" (change)="onColourChange($event,0)" type="color"  value="#5c94fc" #palette0>
+		<input class="panel-col-item palette-radio" type="radio" name="palette-index-pick" (change)="onPaletteRadioChange(0)" checked="true">
+	</div>
+	<div class="panel-col">
+		<label class="panel-col-item">colour 1</label>
+		<input class="panel-col-item" (change)="onColourChange($event,1)" type="color" value="#ffa044" #palette1>
+		<input class="panel-col-item palette-radio" type="radio" name="palette-index-pick" (change)="onPaletteRadioChange(1)">
+	</div>
+	<div class="panel-col">
+		<label class="panel-col-item">colour 2</label>
+		<input class="panel-col-item" (change)="onColourChange($event,2)" type="color" value="#F83700" #palette2>
+		<input class="panel-col-item palette-radio" type="radio" name="palette-index-pick" (change)="onPaletteRadioChange(2)">
+	</div>
+	<div class="panel-col">
+		<label class="panel-col-item">colour 3</label>
+		<input class="panel-col-item" (change)="onColourChange($event,3)" type="color" value="#AC7C00" #palette3>
+		<input class="panel-col-item palette-radio" type="radio" name="palette-index-pick" (change)="onPaletteRadioChange(3)">
+	</div>
+</div>
