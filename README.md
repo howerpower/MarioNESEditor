@@ -1,7 +1,7 @@
 This tool has been adapted from another Nes CHR editor located here, https://github.com/JimMarshall35/nes-sprite-editor
 Use that tool if you are looking for sprite editor for games other than Super Mario Bros.
 
-#MarioNESEditor
+https://howerpower.github.io/MarioNESEditor/
 
 This browser tool allows to upload a copy of Super Mario Bros, extract and edit the graphics and repack it back into a rom to be downloaded.
 
